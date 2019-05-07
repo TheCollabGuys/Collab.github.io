@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="./index.css">
+		<meta charset="UTF-8">
+		<meta name="description" content="Mattheus Stearns">
+		<meta name="keywords" content="Mattheus,Stearns,Mattheus Stearns, Everythingtaioplayz, Taioplayz Everything">
+		<meta name="author" content="Mattheus Stearns">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+		<div id="topBar">
+			<div id="nav-container">
+			  <div id="nav-title">Mattheus Stearns
+			  </div>
+				<ul>
+			    <li>
+						<div class="dropdown">
+							  <button onclick="location.href='#';" class="nav-btn">Hobbies</button>
+							  <div class="dropdown-content">
+							    <p class="dropdown-Element"><a href="hobbies/Reading.html">Reading</a</p>
+									<p class="dropdown-Element"><a href="hobbies/Coding.html">Coding</a</p>
+									<p class="dropdown-Element" ><a href="hobbies/Football.html">Football</a></p>
+									<p class="dropdown-Element"><a href="hobbies/Billiards.html">Billiards</a</p>
+							  </div>
+						</div>
+					</li>
+			    <li><button onclick="location.href='MyFuture.html';" class="nav-btn">My Future</button></li>
+			    <li><button onclick="location.href='#';" id="parBtn" class="nav-btn">My parents</button></li>
+			    <li><button onclick="location.href='index.html';" class="nav-btn ">About Me</button></li>
+			  </ul>
+			  <!-- For use later
+			  <div id="dropdown">
+			    <span><hr/></span>
+			    <span><hr/></span>
+			    <span><hr/></span>
+			  </div>
+			</div>
+
+			$(document).ready(function() {
+  checksize();
+
+  $('#dropdown').on('click', function() {
+    $('#dropdown-menu').toggle('slow');
+  })
+
+  $(window).resize(checksize);
+});
+
+function checksize() {
+  if ($('#nav-container ul').css('float') == 'none') {
+    $('#nav-container ul').hide();
+    $('#dropdown').show();
+  } else {
+    $('#nav-container ul').show();
+    $('#dropdown').hide();
+    $('#dropdown-menu').hide();
+  }
+};
+		-->
+
+
+	</div>
+			<!-- <ul id="dropdown-menu">
+			  <li><a href="#">About</a></li>
+			  <li><a href="#">Products</a></li>
+			  <li><a href="#">Blog</a></li>
+			  <li><a href="#">Zoltan</a></li>
+			</ul> -->
+
+
+		</div>
+		<div id="header">
+			<h1 id="main_title">Mattheus Stearns</h1>
+			<img src="darkhood.jpg" alt="Me">
+		</div>
+		<div id="main_wrapper">
+
+			<div id="main_contentt_transparent">
+				<div id="main_content">
+
+					<p>
+						Coding
+				 </p>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- The Modal -->
+		<div id="parModal" class="modal">
+
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    <span class="close">&times;</span>
+		    <p>Some text in the Modal..</p>
+		  </div>
+
+		</div>
+
+		<script>
+		// Get the modal
+		var modal = document.getElementById('parModal');
+
+		// Get the button that opens the modal
+		var btn = document.getElementById("parBtn");
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks the button, open the modal
+		btn.onclick = function() {
+		  modal.style.display = "block";
+		}
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+		</script>
+
+	</body>
+
+</html>
