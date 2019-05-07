@@ -215,7 +215,7 @@ body{
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.dropdown-Element{
+#dropdown-Element{
 	margin:2px;
 	width:auto;
 }
