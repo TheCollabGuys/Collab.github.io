@@ -13,6 +13,7 @@ $(document).ready(function() {
     modal.style.display = "block";
   }
 
+
   // When the user clicks on <span> (x), close the modal
   span.onclick = function() {
     modal.style.display = "none";
@@ -24,4 +25,24 @@ $(document).ready(function() {
       modal.style.display = "none";
     }
   }
+
+  // var btn2 = document.getElementById("futureGenerator");
+  //
+  // btn2.onclick = function() {
+  //   console.log("ichgvhj");
+  // }
+const arrayOfImages=["future1.jpg","future2.jpg","future3.jpg","future4.jpg","future5.jpg"]
+
+ function  myFunction(){
+    var randomNumberBetween0and5 = Math.floor(Math.random() * 5);
+    // arrayOfImages[randomNumberBetween0and5];
+ $('#futureImg').attr('src', arrayOfImages[randomNumberBetween0and5]);
+    console.log( arrayOfImages[randomNumberBetween0and5]);
+  }
+
+
+
+  $('#futureGenerator').on("click", function(){
+                                                                  myFunction();
+                                                                });
 });
