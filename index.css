@@ -7,6 +7,8 @@ body{
 .image{
 	height:300px;
 	width:600px;
+	display: block;
+	margin-left: 200px;
 }
 
 #main_wrapper{
@@ -23,7 +25,7 @@ body{
 	border-radius: 12px;
 	color: Black;
 	border: 2px solid #e7e7e7;
-	
+
 }
 
 
