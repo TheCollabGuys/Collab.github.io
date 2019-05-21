@@ -8,7 +8,7 @@ body{
 	height:300px;
 	width:600px;
 	display: block;
-	margin-left: 200px;
+	margin-left: 	27vw ;
 }
 
 #main_wrapper{
@@ -25,15 +25,16 @@ body{
 	border-radius: 12px;
 	color: Black;
 	border: 2px solid #e7e7e7;
-
+	margin-left: 	45vw ;
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
 
 
 #header{
 	background-color: black;
 	color: white;
-	height: 400px;
-	text-align: center;
+	height: 408px;
 	padding-top: 50px;
 	z-index: 1;
 }
@@ -42,6 +43,7 @@ body{
 #main_title{
 	margin:0;
 	padding-top:30px;
+	margin-left: 	41vw ;
 }
 
 #topBar{
